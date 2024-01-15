@@ -18,4 +18,4 @@ app.add_page("Powdery Mildew Detection", page_powdery_mildew_detection_body)
 app.add_page("Project Hypothesis", page_project_hypothesis_body)
 app.add_page("ML Performance Metrics", page_ml_performance_metrics)
 
-app.run()  # Run the app
+app.run()

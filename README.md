@@ -57,7 +57,7 @@
 
 - Hypothesis
   - Detection of early stages of powdery mildew infection in cherry leaves would help a business to take action to control this disease before it spreads to a large number of trees.
-Validation
+        Validation
   - This program is more capable than humans in detecting signs of powdery mildew in cherry leaves, which enables a buniness to adopt prevention and early treatment measures.
 
 # 4. Rationale to map the business requirements to the data visualizations and machine learning tasks
@@ -111,3 +111,7 @@ Validation
 - It contains a report of the uploaded images and their respective prediction results that a user can download.
 
 ![Powdery mildew detection page image](readme-images/powdery-mildew-detection.png)
+
+## 6. 4. Project hypothesis page
+
+- This page details the project hypotheses and their validations.

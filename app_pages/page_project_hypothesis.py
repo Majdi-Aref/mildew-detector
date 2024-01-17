@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 def page_project_hypothesis_body():
-    st.write("### Project Hypotheses and Validation")
+    st.write("### Project Hypotheses and their Validations")
 
     st.success(
         f"1. Cherry leaves that are infected with powdery mildew have "

@@ -57,7 +57,7 @@
 
 - Hypothesis
   - Detection of early stages of powdery mildew infection in cherry leaves would help a business to take action to control this disease before it spreads to a large number of trees.
-        Validation
+    Validation
   - This program is more capable than humans in detecting signs of powdery mildew in cherry leaves, which enables a buniness to adopt prevention and early treatment measures.
 
 # 4. Rationale to map the business requirements to the data visualizations and machine learning tasks
@@ -115,3 +115,31 @@
 ## 6. 4. Project hypothesis page
 
 - This page details the project hypotheses and their validations.
+
+![Project hypothesis page image 1](readme-images/project-hypothesis-1.png)
+
+![Project hypothesis page image 2](readme-images/project-hypothesis-2.png)
+
+## 6. 5. ML performance metrics page
+
+- This page displays the frequency of each label in the train, validation, and test sets.
+- It also contains a plot that illustrates the machine learning model training accuracy and losses.
+
+![ML performance metrics page image 1](readme-images/ml-performance-metrics-1.png)
+
+![ML performance metrics page image 2](readme-images/ml-performance-metrics-2.png)
+
+# 7. Unfixed bugs
+
+- There are no unfixed bugs in this project.
+
+# 8. Deployment
+
+## 8. 1. On Github
+
+- Fork the Code Institute's template repository "milestone-project-mildew-detection-in-cherry-leaves" that exists on Github.
+- Create a Codeanywhere workspace from that forked template repository on you Github account.
+
+## 8. 2. on Heroku
+
+- Log into your Heroku account and create an new app.

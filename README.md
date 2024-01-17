@@ -35,7 +35,7 @@
 ## 3. 1. First hypothesis and how to validate it
 
 - Hypothesis
-  - Cherry leaves infected with powdery mildew demonstrate unique properties, which are small white, milky, or light gray spots that my machine learning program can detect.
+  - Cherry leaves that are infected with powdery mildew demonstrate unique properties that distinguish them from other ones that are healthy; those unique properties are small white, milky, or light gray spots that my machine learning program can detect.
 - Validation
   - By implementing a binary classification method, my machine learning program has been able to detect those unique properties and utilize them to accurately predict whether a cherry leaf is healthy or infected with powdery mildew.
 
@@ -57,6 +57,7 @@
 
 - Hypothesis
   - Detection of early stages of powdery mildew infection in cherry leaves would help a business to take action to control this disease before it spreads to a large number of trees.
+Validation
   - This program is more capable than humans in detecting signs of powdery mildew in cherry leaves, which enables a buniness to adopt prevention and early treatment measures.
 
 # 4. Rationale to map the business requirements to the data visualizations and machine learning tasks
@@ -89,11 +90,24 @@
 ## 6. 1. Project summary page
 
 - This page gives general information about the project, states the owner of the cherry leaves images dataset, and clarifies the project business requirements.
-- Please have a look at the two images below.
 
 ![Project summary page, image 1](readme-images/project-summary-1.png)
 
 ![Project summary page, image 2](readme-images/project-summary-2.png)
-## 6. 1. Project summary page22Cherry leaves visualizer
 
-- 
+## 6. 2. Cherry leaves visualizer page
+
+- This page shows images of! average and variability cherry leaves images.
+- It also displays images of the average infected and the average healthy cherry leaves images.
+- It also enables a user to create an image monCherry leaves visualizer the r the infected ccherry-leaves-visualizeres.
+
+![Cherry leaves visualizer page image](readme-images/cherry-leaves-visualizer.png)
+
+## 6. 3. Powdery mildew detection page
+
+- This page includes a link to the cherry leaves images dataset on Kaggle; a user can visit this link and download images from that dataset to make predictions.
+- It also includes an uploader that a user can use to to upload cherry leaves images and make predictions.
+- It shows the uploaded image and the result of its prediction with a respective plot.
+- It contains a report of the uploaded images and their respective prediction results that a user can download.
+
+![Powdery mildew detection page image](readme-images/powdery-mildew-detection.png)

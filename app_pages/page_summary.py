@@ -24,7 +24,7 @@ def page_summary_body():
         f"[my project repository](https://github.com/Majdi-Aref/mildew-detector).")
 
     st.success(
-        f"This project handles two business requirements:\n"
+        f"This project handles two business requirements:\n\n"
         f"1. The customer is interested in conducting a study to visually "
         f"differentiate a cherry leaf that is healthy from one that contains "
         f"powdery mildew.\n\n"

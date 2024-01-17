@@ -41,7 +41,7 @@ def page_cherry_leaves_visualizer_body():
 
         st.warning(
             f"The average infected cherry leaf image demonstrates white, "
-            f"milky, or light gray spots, which differentiate them from "
+            f"milky, or light gray spots, which differentiate it from "
             f"the average healthy cherry leaf image.")
         st.image(diff_between_avgs,
                  caption='Difference between average images')

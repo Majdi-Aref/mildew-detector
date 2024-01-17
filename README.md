@@ -30,7 +30,7 @@
 - The customer, Farmy & Foods, is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
   - This state-of-the-art project presents a machine learning program that inspects each cherry leaf and immediately predicts whether it is healthy or infected with powdery mildew, which effectively saves both time and money and perfectly meets the customer's needs.
 
-# 3. Hypothesis and how to validate
+# 3. Hypotheses and how to validate them
 
 ## 3. 1. First hypothesis and how to validate it
 
@@ -72,3 +72,28 @@
 - As a user, I want to predict if a cherry leaf is healthy or contains powdery mildew.
 - As a user, I want to upload cherry leaves images into the machine learning predicting program.
 - As a user, I want to download the analysis report of each prediction.
+
+# 5. ML business case
+
+- The target of this project is to develop a machine learning program that both effectively and efficiently predicts if a cherry leaf is healthy or contains powdery mildew, which can save the customer time, effort, and money.
+- For this purpose, This machine learning program will utilize the business' cherry leaves dataset.
+  - Both healthy and infected cherry leaves images will be applied to train the machine learning model to enable it to learn the differences between the two by means of recognizing repeated patterns.
+  - The machine learning model will apply binary classification prediction method to display a prediction result, which must be one of two possibilities: either "healthy" or "powdery mildew".
+- To make predictions, the customer wants an easy-to-use dashboard to upload both old cherry leaves images from the dataset and also new cherry leaves images that were not included in the project dataset.
+- The customer wants a prediction accuracy to be at least 97% as to whether a cherry leaf is healthy or contains powdery mildew.
+- Only persons who are related to developing this project may have access to the business' cherry leaves dataset.
+- This program could be exploited to detect similar or different diseases that affect crops other than the cherry tree.
+
+# 6. Dashboard design
+
+## 6. 1. Project summary page
+
+- This page gives general information about the project, states the owner of the cherry leaves images dataset, and clarifies the project business requirements.
+- Please have a look at the two images below.
+
+![Project summary page, image 1](readme-images/project-summary-1.png)
+
+![Project summary page, image 2](readme-images/project-summary-2.png)
+## 6. 1. Project summary page22Cherry leaves visualizer
+
+- 

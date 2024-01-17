@@ -18,7 +18,7 @@ def page_cherry_leaves_visualizer_body():
         f"powdery mildew.")
 
     version = 'v1'
-    if st.checkbox("Difference between average and variability image"):
+    if st.checkbox("Differences between average and variability cherry leaves images"):
 
         avg_infected = plt.imread(
             f"outputs/{version}/avg_var_powdery_mildew.png")
@@ -36,7 +36,7 @@ def page_cherry_leaves_visualizer_body():
                  caption='Healthy Cherry Leaf - Average and Variability')
         st.write("---")
 
-    if st.checkbox("Differences between average infected and average healthy cherry leaves"):
+    if st.checkbox("Differences between average infected and average healthy cherry leaves images"):
         diff_between_avgs = plt.imread(f"outputs/{version}/avg_diff.png")
 
         st.warning(

@@ -1,14 +1,14 @@
 # Mildew Detector
 
 - 'Mildew Detector' is an application that helps differentiate between healthy cherry leaves and those that are infected with powdery mildew, which is a fungal disease that can infect many plants.
-
-- I built this app as my fifth portfolio project at Code Institute.
-
+- I built this application as my student fifth portfolio project at Code Institute.
+- To visit this application website live on Heroku, please click on this [link](https://mildew-identifier-11888352e0e6.herokuapp.com/).
+- To visit this application GitHub repository, please click on this [link](https://github.com/Majdi-Aref/mildew-detector).
 - The manual detection of powdery mildew in cherry trees, which is done by examining the leaves with the naked eye, is not a feasible method because, im most cases, the total number of the cherry trees is huge.
-
 - This project implements a modern and practical machine learning program that examines a cherry leaf image and immediately determines whether it is healthy or infected with powdery mildew.
+- Businesses who grow cherry crops can profit from this application.
 
-- Businesses who grow cherry trees can profit from this project.
+![Image showing the application on various screen sizes](readme-images/am-i-responsive-1.png)
 
 # Table of contents
 
@@ -17,6 +17,7 @@
 - The dataset is taken from Code Institute's account on Kaggle.
 - It consists of 2104 healthy cherry leaves images and 2104 cherry leaves images that contain powdery mildew.
 - The owner of this dataset is Farmy & Foods, which is a business that grows cherry crops.
+- To check this dataset, please click on this [link](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves).
 
 # 2. Business requirements
 
@@ -140,6 +141,7 @@
 - I forked the Code Institute's Github template repository "milestone-project-mildew-detection-in-cherry-leaves" into my Github account.
 - Please know that this Code Institute's Github template repository is designed to be utilized on Codeanywhere.
 - By applying my forked Code Institute' template repository, I created a Codeanywhere workspace to build this project.
+- To visit the project GitHub repository, please click on this [link](https://github.com/Majdi-Aref/mildew-detector).
 
 ## 8. 2. On Codeanywhere
 
@@ -175,7 +177,7 @@
 - Type in your repository name and click on 'Search'. Once it is found, click on 'Connect'.
 - Choose 'main' as the branch to deploy, then click on 'Deploy Branch'.
 - Once your app is deployed, click on 'Open app' on the top right of your Heroku app page.
-- To visit this project live, please click on [this link](https://mildew-identifier-11888352e0e6.herokuapp.com/).
+- To visit this project live, please click on this [link](https://mildew-identifier-11888352e0e6.herokuapp.com/).
 
 # 9. Technologies
 
@@ -222,7 +224,7 @@
   - A cloud-based hosting service for Git repositories, which is a distributed version control system.
   - It allows developers to store, manage, and track changes to their code, and collaborate with others on projects.
 
-## 9. 3. Development & Hosting
+## 9. 3. Development and Hosting
 
 - Jupyter
   - A web-based interactive computational environment that allows you to combine code, text, and images in a single document.
@@ -238,3 +240,9 @@
 - Kaggle
   - A renowned online community and platform for data science enthusiasts and professionals to sharpen their skills, collaborate on projects, and compete in machine learning challenges.
   - It provides a vast repository of datasets, a supportive community, and a series of competitions that foster learning and innovation in the data science realm.
+
+# 10. Credits
+
+- [Github template repository of Code Institute's predictive analytics milestone project: Mildew Detection in Cherry Leaves](https://github.com/Code-Institute-Solutions/milestone-project-mildew-detection-in-cherry-leaves)
+- [Code Institute's videos and GitHub repository of the predictive analytics walkthrough project 01: Malaria Detector](https://github.com/Code-Institute-Solutions/WalkthroughProject01)
+- [Code Institute's Kaggle cherry leaves dataset](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves)

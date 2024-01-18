@@ -171,7 +171,7 @@
 - Open the Jupyter Notebooks directory in the jupyter webpage that has opened and click on the notebook you want to open, then click the button 'Not Trusted' and choose 'Trust'.
 - Note that the kernel of your Jupyter Notebooks says 'Python 3'. It inherits from your Codeanywhere workspace so it will be Python-3.8.12 as installed by the Code Institute's template. To confirm this you can type in the command '! python --version' in a Jupyter notebook code cell or in your Codeanywhere terminal.
 
-## 9. 3. on Heroku
+## 9. 3. On Heroku
 
 - Log into your Heroku account and go to 'Account Settings' in the menu under your avatar.
 - Scroll down to the 'API Key' and click 'Reveal'.

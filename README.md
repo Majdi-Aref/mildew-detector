@@ -10,8 +10,6 @@
 
 ![Image showing the application on various screen sizes](readme-images/am-i-responsive-1.png)
 
-# Table of contents
-
 # 1. Dataset content
 
 - The dataset is taken from Code Institute's account on Kaggle.
@@ -86,9 +84,24 @@
 - Only persons who are related to developing this project may have access to the business' cherry leaves dataset.
 - This program could be exploited to detect similar or different diseases that affect crops other than the cherry tree.
 
-# 6. Dashboard design
+# 6. Agile
 
-## 6. 1. Project summary page
+- I created a project on this application GitHub repository.
+- Then, I created six issues and added them to that project.
+- Those six issues cover the epics and user stories of this application.
+- Five of the those six issues were classified as 'Must have' and one issue was classified as 'Should have'.
+- I accomplished the five 'Must have' issues, so they are in the 'Done' category of the GitHub project.
+- However, I could not accomplish the 'Should have' issue, so it is in the 'Todo' category of the GitHub project.
+
+![Agile methodology image 1](readme-images/agile-1.png)
+
+![Agile methodology image 2](readme-images/agile-2.png)
+
+![Agile methodology image 3](readme-images/agile-3.png)
+
+# 7. Dashboard design
+
+## 7. 1. Project summary page
 
 - This page gives general information about the project, states the owner of the cherry leaves images dataset, and clarifies the project business requirements.
 
@@ -96,7 +109,7 @@
 
 ![Project summary page, image 2](readme-images/project-summary-2.png)
 
-## 6. 2. Cherry leaves visualizer page
+## 7. 2. Cherry leaves visualizer page
 
 - This page shows images of! average and variability cherry leaves images.
 - It also displays images of the average infected and the average healthy cherry leaves images.
@@ -104,7 +117,7 @@
 
 ![Cherry leaves visualizer page image](readme-images/cherry-leaves-visualizer.png)
 
-## 6. 3. Powdery mildew detection page
+## 7. 3. Powdery mildew detection page
 
 - This page includes a link to the cherry leaves images dataset on Kaggle; a user can visit this link and download images from that dataset to make predictions.
 - It also includes an uploader that a user can use to to upload cherry leaves images and make predictions.
@@ -113,7 +126,7 @@
 
 ![Powdery mildew detection page image](readme-images/powdery-mildew-detection.png)
 
-## 6. 4. Project hypothesis page
+## 7. 4. Project hypothesis page
 
 - This page details the project hypotheses and their validations.
 
@@ -121,7 +134,7 @@
 
 ![Project hypothesis page image 2](readme-images/project-hypothesis-2.png)
 
-## 6. 5. ML performance metrics page
+## 7. 5. ML performance metrics page
 
 - This page displays the frequency of each label in the train, validation, and test sets.
 - It also contains a plot that illustrates the machine learning model training accuracy and losses.
@@ -130,20 +143,20 @@
 
 ![ML performance metrics page image 2](readme-images/ml-performance-metrics-2.png)
 
-# 7. Unfixed bugs
+# 8. Unfixed bugs
 
 - This project does not include unfixed bugs.
 
-# 8. Deployment
+# 9. Deployment
 
-## 8. 1. On Github
+## 9. 1. On Github
 
 - I forked the Code Institute's Github template repository "milestone-project-mildew-detection-in-cherry-leaves" into my Github account.
 - Please know that this Code Institute's Github template repository is designed to be utilized on Codeanywhere.
 - By applying my forked Code Institute' template repository, I created a Codeanywhere workspace to build this project.
 - To visit the project GitHub repository, please click on this [link](https://github.com/Majdi-Aref/mildew-detector).
 
-## 8. 2. On Codeanywhere
+## 9. 2. On Codeanywhere
 
 - Log into your account on Codeanywhere.
 - Click on the button 'New Workspace'.
@@ -158,7 +171,7 @@
 - Open the Jupyter Notebooks directory in the jupyter webpage that has opened and click on the notebook you want to open, then click the button 'Not Trusted' and choose 'Trust'.
 - Note that the kernel of your Jupyter Notebooks says 'Python 3'. It inherits from your Codeanywhere workspace so it will be Python-3.8.12 as installed by the Code Institute's template. To confirm this you can type in the command '! python --version' in a Jupyter notebook code cell or in your Codeanywhere terminal.
 
-## 8. 3. on Heroku
+## 9. 3. on Heroku
 
 - Log into your Heroku account and go to 'Account Settings' in the menu under your avatar.
 - Scroll down to the 'API Key' and click 'Reveal'.
@@ -179,9 +192,9 @@
 - Once your app is deployed, click on 'Open app' on the top right of your Heroku app page.
 - To visit this project live, please click on this [link](https://mildew-identifier-11888352e0e6.herokuapp.com/).
 
-# 9. Technologies
+# 10. Technologies
 
-## 9. 1. Main data analysis and machine learning libraries
+## 10. 1. Main data analysis and machine learning libraries
 
 - NumPy
   - A fundamental library for scientific computing in Python.
@@ -218,13 +231,13 @@
   - Pillow allows you to open, modify, and save images, as well as create new images from scratch.
   - It also provides a variety of image processing tools, such as resizing, cropping, rotating, and filtering.
 
-## 9. 2. Version control
+## 10. 2. Version control
 
 - GitHub
   - A cloud-based hosting service for Git repositories, which is a distributed version control system.
   - It allows developers to store, manage, and track changes to their code, and collaborate with others on projects.
 
-## 9. 3. Development and Hosting
+## 10. 3. Development and Hosting
 
 - Jupyter
   - A web-based interactive computational environment that allows you to combine code, text, and images in a single document.
@@ -241,7 +254,7 @@
   - A renowned online community and platform for data science enthusiasts and professionals to sharpen their skills, collaborate on projects, and compete in machine learning challenges.
   - It provides a vast repository of datasets, a supportive community, and a series of competitions that foster learning and innovation in the data science realm.
 
-# 10. Credits
+# 11. Credits
 
 - [Github template repository of Code Institute's predictive analytics milestone project: Mildew Detection in Cherry Leaves](https://github.com/Code-Institute-Solutions/milestone-project-mildew-detection-in-cherry-leaves)
 - [Code Institute's videos and GitHub repository of the predictive analytics walkthrough project 01: Malaria Detector](https://github.com/Code-Institute-Solutions/WalkthroughProject01)

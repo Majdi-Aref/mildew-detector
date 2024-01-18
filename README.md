@@ -131,15 +131,110 @@
 
 # 7. Unfixed bugs
 
-- There are no unfixed bugs in this project.
+- This project does not include unfixed bugs.
 
 # 8. Deployment
 
 ## 8. 1. On Github
 
-- Fork the Code Institute's template repository "milestone-project-mildew-detection-in-cherry-leaves" that exists on Github.
-- Create a Codeanywhere workspace from that forked template repository on you Github account.
+- I forked the Code Institute's Github template repository "milestone-project-mildew-detection-in-cherry-leaves" into my Github account.
+- Please know that this Code Institute's Github template repository is designed to be utilized on Codeanywhere.
+- By applying my forked Code Institute' template repository, I created a Codeanywhere workspace to build this project.
 
-## 8. 2. on Heroku
+## 8. 2. On Codeanywhere
 
-- Log into your Heroku account and create an new app.
+- Log into your account on Codeanywhere.
+- Click on the button 'New Workspace'.
+- Copy the URL of the Github repository that you have just forked into your Github account and paste it in the 'Repository URL' field.
+- Click on the 'Create' button.
+- Wait for the workspace to open.
+- In your newly created Codeanywhere workspace, open a new terminal.
+- In that terminal, type in the command 'pip3 install -r requirements.txt', which will automatically install all the necessary programs listed in your requirements.txt file.
+- In the terminal, type in the command 'pip3 install jupyter' to install Jupyter Notebook into your Codeanywhere workspace.
+- In the terminal, type in the command "jupyter notebook --NotebookApp.token=''" to open your Jupyter server.
+- In your Codeanywhere workspace, open port 8888 preview or browser.
+- Open the Jupyter Notebooks directory in the jupyter webpage that has opened and click on the notebook you want to open, then click the button 'Not Trusted' and choose 'Trust'.
+- Note that the kernel of your Jupyter Notebooks says 'Python 3'. It inherits from your Codeanywhere workspace so it will be Python-3.8.12 as installed by the Code Institute's template. To confirm this you can type in the command '! python --version' in a Jupyter notebook code cell or in your Codeanywhere terminal.
+
+## 8. 3. on Heroku
+
+- Log into your Heroku account and go to 'Account Settings' in the menu under your avatar.
+- Scroll down to the 'API Key' and click 'Reveal'.
+- Copy that API key.
+- In a Codeanywhere terminal, run the command 'heroku_config'.
+- You will be asked to paste in your API key in that Codeanywhere terminal.
+- You can now use the Heroku CLI program. To confirm that it is working, try running the command 'heroku apps' in your Codeanywhere terminal.
+- This Heroku API key is unique and private to you, so do not share it. If you accidentally make it public then you can create a new one by clicking on 'Regenerate API Key...', which is under your API key.
+- Create an new app on your Heroku account for your project.
+- From your Codeanywhere terminal, Log into Heroku CLI using the command 'heroku login -i' and enter your credentials.
+- If a Heroku error appears telling you that the Python version is not available, it may be due to the Heroku's stack used for the application.
+- To fix this, from your Codeanywhere terminal, log in to the Heroku command line interface, CLI, and type in the command 'heroku stack:set heroku-20' to set the stack to Heroku-20.
+- Go to your Heroku app, click on 'Deploy' on the navigation bar.
+- On the 'Deploy' page, scroll down until you find the 'Deployment method' on the left.
+- Select GitHub as the deployment method.
+- Type in your repository name and click on 'Search'. Once it is found, click on 'Connect'.
+- Choose 'main' as the branch to deploy, then click on 'Deploy Branch'.
+- Once your app is deployed, click on 'Open app' on the top right of your Heroku app page.
+- To visit this project live, please click on [this link](https://mildew-identifier-11888352e0e6.herokuapp.com/).
+
+# 9. Technologies
+
+## 9. 1. Main data analysis and machine learning libraries
+
+- NumPy
+  - A fundamental library for scientific computing in Python.
+  - It provides a high-performance multidimensional array object and a comprehensive suite of mathematical functions for working with these arrays.
+- Pandas
+  - A powerful Python library that simplifies data manipulation and analysis.
+  - It enables users to efficiently work with tabular data structures like Series and DataFrames.
+- Matplotlib
+  - A veratile Python library for generating high-quality visualizations.
+  - It provides a wide range of data types and plot styles, from simple line charts to complex interactive maps.
+- Seaborn
+  - A Python data visualization library that builds on top of Matplotlib.
+  - It provides an easy-to-use interface for creating informative and aesthetically pleasing statistical graphics.
+  - Its elegant syntax and built-in themes simplify the process of creating common visualizations like scatter plots, histograms, box plots, and correlation matrices.
+- Plotly
+  - An interactive, open-source graphing library for Python that enables users to create a wide range of visualizations, from simple line charts to complex 3D graphs.
+  - Its interactive features allow users to zoom, hover, and pan across the graphs, enhancing the overall data exploration experience.
+- TensorFlow
+  - A powerful open-source machine learning library that simplifies the process of building and training neural networks.
+  - It excels in tasks like image recognition, natural language processing, and speech recognition.
+- Keras
+  - A high-level open-source neural network API, written in Python and capable of running on top of TensorFlow, JAX, or PyTorch.
+  - It is designed to be user-friendly and easy to learn, enabling developers to quickly build and train neural networks for a variety of tasks, including image classification, natural language processing, and speech recognition.
+- Scikit-learn
+  - A powerful open-source machine learning library for Python.
+  - It offers a wide range of algorithms and tools for both supervised and unsupervised learning tasks.
+  - It simplifies the process of data preprocessing, model selection, model evaluation, and deployment, making it an essential tool for data scientists and machine learning practitioners.
+- Joblib
+  - A Python library that provides tools for efficient parallel processing, caching, and serialization of Python objects.
+  - It is commonly used for tasks such as speeding up machine learning model training, saving and loading large datasets, and distributing computational workloads across multiple machines.
+- Pillow
+  - A free and open-source Python library for working with images.
+  - It supports a wide variety of image formats, including JPEG, PNG, TIFF, GIF, and BMP.
+  - Pillow allows you to open, modify, and save images, as well as create new images from scratch.
+  - It also provides a variety of image processing tools, such as resizing, cropping, rotating, and filtering.
+
+## 9. 2. Version control
+
+- GitHub
+  - A cloud-based hosting service for Git repositories, which is a distributed version control system.
+  - It allows developers to store, manage, and track changes to their code, and collaborate with others on projects.
+
+## 9. 3. Development & Hosting
+
+- Jupyter
+  - A web-based interactive computational environment that allows you to combine code, text, and images in a single document.
+  - It is a popular tool for data science, machine learning, and other scientific computing tasks.
+- Codeanywhere
+  - A cloud-based integrated development environment, IDE, that allows you to write, edit, and run code from any web browser.
+  - It supports a wide variety of programming languages and frameworks, and it also includes features such as syntax highlighting, code completion, debugging, and version control.
+- Streamlit
+  - An open-source Python library that simplifies the process of building and deploying data-driven web applications.
+  - It provides a high-level API that allows you to create dashboards, interactive visualizations, and machine learning models without writing any front-end code.
+- Heroku
+  - A cloud Platform as a Service, PaaS, that allows developers to deploy, manage, and scale their applications without having to worry about infrastructure.
+- Kaggle
+  - A renowned online community and platform for data science enthusiasts and professionals to sharpen their skills, collaborate on projects, and compete in machine learning challenges.
+  - It provides a vast repository of datasets, a supportive community, and a series of competitions that foster learning and innovation in the data science realm.

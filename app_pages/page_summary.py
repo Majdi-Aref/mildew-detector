@@ -12,12 +12,12 @@ def page_summary_body():
         f"plants. One of these plants is the cherry tree. \n\n"
         f"The manual detection of powdery mildew in cherry trees, which is done by "
         f"examining the leaves with the naked eye, is not a feasible method "
-        f"because the total number of the cherry trees is huge.\n\n"
+        f"because the total number of the cherry trees of a crop is huge. \n\n"
         f"A practical method to achieve this is implementing a machine "
         f"learning program that examines a cherry leaf image and immediately "
-        f"determines whether it is healthy or infected with powdery mildew.\n\n"
+        f"determines whether it is healthy or infected with powdery mildew. \n\n"
         f"**Project Dataset**\n\n"
-        f"Cherry leaf images that belong to **Farmy & Foods**.")
+        f"Cherry leaves images that belong to **Farmy & Foods**.")
 
     st.write(
         f"For more information about this project, plesae visit "

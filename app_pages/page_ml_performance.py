@@ -8,7 +8,7 @@ from src.machine_learning.evaluate_clf import load_test_evaluation
 def page_ml_performance_metrics():
     version = 'v1'
 
-    st.write("### Train, Validation and Test Set: Labels Frequencies")
+    st.write("### Train, Validation and Test Sets: Labels Frequencies")
 
     labels_distribution = plt.imread(
         f"outputs/{version}/labels_distribution.png")

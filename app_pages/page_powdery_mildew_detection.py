@@ -13,19 +13,19 @@ from src.machine_learning.predictive_analysis import (
 
 def page_powdery_mildew_detection_body():
     st.info(
-        f"The customer wants to be able to know whether a given cherry leaf "
-        f"is healthy or contains powdery mildew."
+        f"The customer wants to know whether a cherry leaf is healthy or "
+        f"contains powdery mildew."
     )
 
     st.write(
-        f"You can download an image set of cherry leaves that are either "
-        f"healthy or contain powdery mildew for live prediction. "
-        f"You can download the images from [here](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves)."
+        f"You can download cherry leaves images that are either healthy or "
+        f"infected with powdery mildew for live prediction by visiting this "
+        f"[link](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves)."
     )
 
     st.write("---")
 
-    images_buffer = st.file_uploader('Upload cherry leaves samples. You may select more than one.',
+    images_buffer = st.file_uploader('Upload samples of cherry leaves images. You can select more than one.',
                                      type='png', accept_multiple_files=True)
 
     if images_buffer is not None:

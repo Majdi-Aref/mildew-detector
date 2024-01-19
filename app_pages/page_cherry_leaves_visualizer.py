@@ -44,7 +44,7 @@ def page_cherry_leaves_visualizer_body():
             f"milky, or light gray spots, which differentiate it from "
             f"the average healthy cherry leaf image.")
         st.image(diff_between_avgs,
-                 caption='Difference between average images')
+                 caption='Differences between average healthy and infected leaves')
 
     if st.checkbox("Image Montage"):
         st.write("To refresh the montage, click on the 'Create Montage' button")

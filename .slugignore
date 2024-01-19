@@ -1,0 +1,8 @@
+inputs/cherry_leaves_dataset/cherry_leaves_images/test/healthy/*
+inputs/cherry_leaves_dataset/cherry_leaves_images/test/powdery_mildew/*
+inputs/cherry_leaves_dataset/cherry_leaves_images/train/healthy/*
+inputs/cherry_leaves_dataset/cherry_leaves_images/train/powdery_mildew/*
+jupyter_notebooks/*
+app_pages/__pycache__/*
+README.md
+readme-images/*

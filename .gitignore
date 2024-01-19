@@ -8,5 +8,7 @@ node_modules/
 .github/
 cloudinary_python.txt
 kaggle.json
-inputs/cherry_leaves_dataset/cherry_leaves_images/test/*
-inputs/cherry_leaves_dataset/cherry_leaves_images/train/*
+inputs/cherry_leaves_dataset/cherry_leaves_images/test/healthy/*
+inputs/cherry_leaves_dataset/cherry_leaves_images/test/powdery_mildew/*
+inputs/cherry_leaves_dataset/cherry_leaves_images/train/healthy/*
+inputs/cherry_leaves_dataset/cherry_leaves_images/train/powdery_mildew/*

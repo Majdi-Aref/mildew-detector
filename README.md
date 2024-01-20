@@ -4,9 +4,9 @@
 - I built this application as my student fifth portfolio project at Code Institute.
 - To visit this application website live on Heroku, please click on this [link](https://mildew-identifier-11888352e0e6.herokuapp.com/).
 - To visit this application GitHub repository, please click on this [link](https://github.com/Majdi-Aref/mildew-detector).
-- The manual detection of powdery mildew in cherry trees, which is done by examining the leaves with the naked eye, is not a feasible method because, im most cases, the total number of the cherry trees is huge.
+- The manual detection of powdery mildew in cherry trees, which is done by examining the leaves with the naked eye, is not a feasible method because, in most cases, the total number of the cherry trees is huge.
 - This project implements a modern and practical machine learning program that examines a cherry leaf image and immediately determines whether it is healthy or infected with powdery mildew.
-- Businesses who grow cherry crops can profit from this application.
+- Businesses that grow cherry crops can profit from this application.
 
 ![Image showing the application on various screen sizes](readme-images/am-i-responsive-1.png)
 
@@ -48,7 +48,7 @@
 ## 3. 3. Third hypothesis and how to validate it
 
 - Hypothesis
-  - Manual inspections of cherry leaves are prone to human errorrs, such as overlooking infected cherry leaves, which can be reduced.
+  - Manual inspections of cherry leaves are prone to human errors, such as overlooking infected cherry leaves, which can be reduced.
 - Validation
   - This image analysis program is less prone to these errors; therefore it can provide more accurate results.
 
@@ -56,8 +56,8 @@
 
 - Hypothesis
   - Detection of early stages of powdery mildew infection in cherry leaves would help a business to take action to control this disease before it spreads to a large number of trees.
-    Validation
-  - This program is more capable than humans in detecting signs of powdery mildew in cherry leaves, which enables a buniness to adopt prevention and early treatment measures.
+- Validation
+  - This program is more capable than humans in detecting signs of powdery mildew in cherry leaves, which enables a business to adopt prevention and early treatment measures.
 
 # 4. Rationale to map the business requirements to the data visualizations and machine learning tasks
 
@@ -76,7 +76,7 @@
 # 5. ML business case
 
 - The target of this project is to develop a machine learning program that both effectively and efficiently predicts if a cherry leaf is healthy or contains powdery mildew, which can save the customer time, effort, and money.
-- For this purpose, This machine learning program will utilize the business' cherry leaves dataset.
+- For this purpose, This machine learning program will utilize the business's cherry leaves dataset.
   - Both healthy and infected cherry leaves images will be applied to train the machine learning model to enable it to learn the differences between the two by means of recognizing repeated patterns.
   - The machine learning model will apply binary classification prediction method to display a prediction result, which must be one of two possibilities: either "healthy" or "powdery mildew".
 - To make predictions, the customer wants an easy-to-use dashboard to upload both old cherry leaves images from the dataset and also new cherry leaves images that were not included in the project dataset.
@@ -87,17 +87,13 @@
 # 6. Agile
 
 - I created a project on this application GitHub repository.
-- Then, I created six issues and added them to that project.
-- Those six issues cover the epics and user stories of this application.
-- Five of the those six issues were classified as 'Must have' and one issue was classified as 'Should have'.
-- I accomplished the five 'Must have' issues, so they are in the 'Done' category of the GitHub project.
-- However, I could not accomplish the 'Should have' issue, so it is in the 'Todo' category of the GitHub project.
+- Then, I created eight issues and added them to that project.
+- Those eight issues cover the epics and user stories of this application.
+- Five of the those eight issues were classified as 'Must have', one issue as 'Should have', one as 'Could have', and one as 'Might have'.
+- I accomplished the five 'Must have' issues, so they are logged into the 'Done' category of the GitHub project.
+- However, I could not accomplish the 'Should have', 'Could have', and 'Might have' issues, so those are registered in the 'Todo' category of the GitHub project.
 
-![Agile methodology image 1](readme-images/agile-1.png)
-
-![Agile methodology image 2](readme-images/agile-2.png)
-
-![Agile methodology image 3](readme-images/agile-3.png)
+![Agile methodology images](readme-images/agile.png)
 
 # 7. Dashboard design
 
@@ -111,16 +107,16 @@
 
 ## 7. 2. Cherry leaves visualizer page
 
-- This page shows images of! average and variability cherry leaves images.
-- It also displays images of the average infected and the average healthy cherry leaves images.
-- It also enables a user to create an image monCherry leaves visualizer the r the infected ccherry-leaves-visualizeres.
+- On this page, a user can see the average and variability images of both healthy and infected cherry leaves and examine whether there are differences between them.
+- A user can also identify the average images of healthy and infected cherry leaves and consider the differences between them.
+- Additionally, a user can do an image montage of healthy and infected cherry leaves images.
 
 ![Cherry leaves visualizer page image](readme-images/cherry-leaves-visualizer.png)
 
 ## 7. 3. Powdery mildew detection page
 
 - This page includes a link to the cherry leaves images dataset on Kaggle; a user can visit this link and download images from that dataset to make predictions.
-- It also includes an uploader that a user can use to to upload cherry leaves images and make predictions.
+- It also includes an uploader that a user can use to upload cherry leaves images and make predictions.
 - It shows the uploaded image and the result of its prediction with a respective plot.
 - It contains a report of the uploaded images and their respective prediction results that a user can download.
 
@@ -153,7 +149,7 @@
 
 - I forked the Code Institute's Github template repository "milestone-project-mildew-detection-in-cherry-leaves" into my Github account.
 - Please know that this Code Institute's Github template repository is designed to be utilized on Codeanywhere.
-- By applying my forked Code Institute' template repository, I created a Codeanywhere workspace to build this project.
+- By applying my forked Code Institute template repository, I created a Codeanywhere workspace to build this project.
 - To visit the project GitHub repository, please click on this [link](https://github.com/Majdi-Aref/mildew-detector).
 
 ## 9. 2. On Codeanywhere
@@ -164,12 +160,12 @@
 - Click on the 'Create' button.
 - Wait for the workspace to open.
 - In your newly created Codeanywhere workspace, open a new terminal.
-- In that terminal, type in the command 'pip3 install -r requirements.txt', which will automatically install all the necessary programs listed in your requirements.txt file.
+- In that terminal, type in the command 'pip3 install -r requirements.txt', which will automatically install all the necessary packages listed in your requirements.txt file.
 - In the terminal, type in the command 'pip3 install jupyter' to install Jupyter Notebook into your Codeanywhere workspace.
-- In the terminal, type in the command "jupyter notebook --NotebookApp.token=''" to open your Jupyter server.
+- In the terminal, type in the command "jupyter notebook --NotebookApp.token=''" to start your Jupyter server.
 - In your Codeanywhere workspace, open port 8888 preview or browser.
-- Open the Jupyter Notebooks directory in the jupyter webpage that has opened and click on the notebook you want to open, then click the button 'Not Trusted' and choose 'Trust'.
-- Note that the kernel of your Jupyter Notebooks says 'Python 3'. It inherits from your Codeanywhere workspace so it will be Python-3.8.12 as installed by the Code Institute's template. To confirm this you can type in the command '! python --version' in a Jupyter notebook code cell or in your Codeanywhere terminal.
+- Open the Jupyter Notebooks directory in the Jupyter webpage that has opened and click on the notebook you want to open, then click the button 'Not Trusted' and choose 'Trust'.
+- Note that the kernel of your Jupyter Notebooks says 'Python 3'. It inherits from your Codeanywhere workspace so it will be Python-3.8.12, which is the version installed by the Code Institute's template. To confirm this you can type in the command '! python --version' in a Jupyter notebook code cell or in your Codeanywhere terminal.
 
 ## 9. 3. On Heroku
 

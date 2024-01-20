@@ -12,7 +12,7 @@ def page_project_hypothesis_body():
         f"gray spots. My machine learning program can efficiently "
         f"detect these distinctive features and differentiate between "
         f"healthy and infected cherry leaves. \n\n"
-        f"2. My machine learning program can, by multiple times, accelerate "
+        f"2. My machine learning program can significantly accelerate "
         f"the cherry leaf examination process, which would save a business "
         f"huge amounts of time, effort, and money. This machine learning "
         f"program can execute an instantaneous prediction with an accuracy "

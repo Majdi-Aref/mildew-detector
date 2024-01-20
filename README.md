@@ -36,19 +36,19 @@
 - Hypothesis
   - Cherry leaves that are infected with powdery mildew demonstrate unique properties that distinguish them from other ones that are healthy; those unique properties are small white, milky, or light gray spots that my machine learning program can detect.
 - Validation
-  - By implementing a binary classification method, my machine learning program has been able to detect those unique properties and utilize them to accurately predict whether a cherry leaf is healthy or infected with powdery mildew.
+  - By implementing a binary classification method, my machine learning program has been able to detect those unique properties and utilize them to predict whether a cherry leaf is healthy or infected with powdery mildew with an accuracy of about 99%.
 
 ## 3. 2. Second hypothesis and how to validate it
 
 - Hypothesis
-  - My machine learning program can, by multiple times, accelerate the cherry leaf examination process, which would save a business huge amounts of time, effort, and money.
+  - My machine learning program can significantly accelerate the cherry leaves examination process, which would save a business huge amounts of time, effort, and money.
 - Validation
   - This machine learning program can execute an instantaneous prediction with an accuracy of about 99%, which would save at least 90% of the time, effort, and money needed to inspect the cherry leaves manually with the naked eye.
 
 ## 3. 3. Third hypothesis and how to validate it
 
 - Hypothesis
-  - Manual inspections of cherry leaves are prone to human errors, such as overlooking infected cherry leaves, which can be reduced.
+  - Manual inspections of cherry leaves are prone to human errors, such as overlooking infected cherry leaves; those errors can be reduced.
 - Validation
   - This image analysis program is less prone to these errors; therefore it can provide more accurate results.
 
@@ -57,7 +57,7 @@
 - Hypothesis
   - Detection of early stages of powdery mildew infection in cherry leaves would help a business to take action to control this disease before it spreads to a large number of trees.
 - Validation
-  - This program is more capable than humans in detecting signs of powdery mildew in cherry leaves, which enables a business to adopt prevention and early treatment measures.
+  - This program is more capable than humans in detecting signs of powdery mildew in cherry leaves, which empowers a business to adopt valuable prevention and early treatment measures.
 
 # 4. Rationale to map the business requirements to the data visualizations and machine learning tasks
 
@@ -75,14 +75,18 @@
 
 # 5. ML business case
 
-- The target of this project is to develop a machine learning program that both effectively and efficiently predicts if a cherry leaf is healthy or contains powdery mildew, which can save the customer time, effort, and money.
-- For this purpose, This machine learning program will utilize the business's cherry leaves dataset.
-  - Both healthy and infected cherry leaves images will be applied to train the machine learning model to enable it to learn the differences between the two by means of recognizing repeated patterns.
-  - The machine learning model will apply binary classification prediction method to display a prediction result, which must be one of two possibilities: either "healthy" or "powdery mildew".
+- Heuristics:
+  - At the moment, Farmy and Foods needs added, trained employees to differentiate between healthy and infected cherry leaves.
+  - Because their cherry leaves inspection is done manually with the naked eye, errors are usually expected to happen.
+- The target of this project is to develop a machine learning model that both effectively and efficiently predicts if a cherry leaf is healthy or contains powdery mildew, which can save the customer time, effort, and money.
+- For this purpose, this machine learning model utilizes the business's cherry leaves dataset. For more details about the dataset, please visit the first section of this readme file.
+- This machine learning model is a supervised, 2-class, single-label, classification model.
+  - Images of both healthy and infected cherry leaves have been used to train the machine learning model to enable it to learn the differences between the two by means of recognizing repeated patterns.
+  - The machine learning model has applied a binary classification prediction method to display a prediction result, which must be one of two possibilities: either "healthy" or "powdery mildew".
 - To make predictions, the customer wants an easy-to-use dashboard to upload both old cherry leaves images from the dataset and also new cherry leaves images that were not included in the project dataset.
 - The customer wants a prediction accuracy to be at least 97% as to whether a cherry leaf is healthy or contains powdery mildew.
-- Only persons who are related to developing this project may have access to the business' cherry leaves dataset.
-- This program could be exploited to detect similar or different diseases that affect crops other than the cherry tree.
+- Only people who are related to developing this project may have access to the business' cherry leaves dataset.
+- The scope of this program could be expanded to detect diseases in crops other than cherry trees.
 
 # 6. Agile
 

@@ -81,7 +81,7 @@
 - The target of this project is to develop a machine learning model that both effectively and efficiently predicts if a cherry leaf is healthy or contains powdery mildew, which can save the customer time, effort, and money.
 - For this purpose, this machine learning model utilizes the business's cherry leaves dataset. For more details about the dataset, please visit the first section of this readme file.
 - This machine learning model is a supervised, 2-class, single-label, classification model.
-  - Images of both healthy and infected cherry leaves have been used to train the machine learning model to enable it to learn the differences between the two by means of recognizing repeated patterns.
+  - Images of both healthy and infected cherry leaves have been used to train the machine learning model to enable it to learn the differences between the two by recognizing repeated patterns.
   - The machine learning model has applied a binary classification prediction method to display a prediction result, which must be one of two possibilities: either "healthy" or "powdery mildew".
 - To make predictions, the customer wants an easy-to-use dashboard to upload both old cherry leaves images from the dataset and also new cherry leaves images that were not included in the project dataset.
 - The customer wants a prediction accuracy to be at least 97% as to whether a cherry leaf is healthy or contains powdery mildew.
@@ -93,7 +93,7 @@
 - I created a project on this application GitHub repository.
 - Then, I created eight issues and added them to that project.
 - Those eight issues cover the epics and user stories of this application.
-- Five of the those eight issues were classified as 'Must have', one issue as 'Should have', one as 'Could have', and one as 'Might have'.
+- Five of the eight issues were classified as 'Must have', one issue as 'Should have', one as 'Could have', and one as 'Might have'.
 - I accomplished the five 'Must have' issues, so they are logged into the 'Done' category of the GitHub project.
 - However, I could not accomplish the 'Should have', 'Could have', and 'Might have' issues, so those are registered in the 'Todo' category of the GitHub project.
 
@@ -203,7 +203,7 @@
   - A powerful Python library that simplifies data manipulation and analysis.
   - It enables users to efficiently work with tabular data structures like Series and DataFrames.
 - Matplotlib
-  - A veratile Python library for generating high-quality visualizations.
+  - A versatile Python library for generating high-quality visualizations.
   - It provides a wide range of data types and plot styles, from simple line charts to complex interactive maps.
 - Seaborn
   - A Python data visualization library that builds on top of Matplotlib.

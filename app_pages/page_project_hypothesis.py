@@ -19,7 +19,7 @@ def page_project_hypothesis_body():
         f"of about 99%, which would save at least 90% of the time, effort, "
         f"and money needed to inspect the cherry leaves manually with the "
         f"naked eye. \n\n"
-        f"3. Manual inspections of cherry leaves are prone to human errorrs, "
+        f"3. Manual inspections of cherry leaves are prone to human errors, "
         f"such as overlooking infected cherry leaves, which can be reduced. "
         f"This image analysis program is less prone to these errors; "
         f"therefore, it can provide more accurate results. \n\n"
@@ -27,6 +27,6 @@ def page_project_hypothesis_body():
         f"leaves would help a business to take action to control this disease "
         f"before it spreads to a large number of trees. This program is more "
         f"capable than humans in detecting signs of powdery mildew in cherry "
-        f"leaves, which enables a buniness to adopt prevention and early "
+        f"leaves, which enables a business to adopt prevention and early "
         f"treatment measures."
     )
